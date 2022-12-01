@@ -140,8 +140,6 @@ public class MainActivity extends AppCompatActivity {
     private Timer timer;
     private void timerCounter(){
         timer = new Timer();
-
-
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
